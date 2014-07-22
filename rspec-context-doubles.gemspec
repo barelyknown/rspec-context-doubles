@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Rspec::Context::Doubles::VERSION
   spec.authors       = ["Sean Devine"]
   spec.email         = ["barelyknown@icloud.com"]
-  spec.summary       = %q{Temporarily toggle the behavior of doubles for an example group.}
+  spec.summary       = %q{Temporarily toggle the behavior of doubles for an RSpec example group.}
   spec.description   = spec.summary
   spec.homepage      = ""
   spec.license       = "MIT"
