@@ -4,9 +4,9 @@ Temporarily configure `RSpec` to use a different type of doubles.
 
 ### Why would you want to do that?
 
-Here is the one that resulted in this library:
-
 If you use `Rails` and add a helper method from a controller (or use a gem like `canable` that does), `RSpec` will raise an error when one of those helper methods is stubbed in a view spec if it is configured to use verifying doubles.
+
+...or any other situation where you want doubles behavior that is different than the project's configuration.
 
 ### How do you use it?
 
